@@ -13,7 +13,6 @@ import java.util.Date;
 public class MdbActor extends MpaasBasePojo {
   @RowID(sequence = "MDB_ACTOR_S", type = RowIDType.AUTO)
   private String id;
-
   private String name;
   private String pinyin;
   private Date birthday;
@@ -156,8 +155,5 @@ public class MdbActor extends MpaasBasePojo {
   public void setAvatar(String avatar) {
     this.avatar = avatar;
   }
-
-
-
 
 }
